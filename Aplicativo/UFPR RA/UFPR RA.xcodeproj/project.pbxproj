@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C711B37316EBFB4600471A33 /* ConfigsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C711B37216EBFB4600471A33 /* ConfigsViewController.m */; };
+		C720324C16EA83E00067C740 /* places_agrarias.plist in Resources */ = {isa = PBXBuildFile; fileRef = C720324A16EA83E00067C740 /* places_agrarias.plist */; };
+		C720324D16EA83E00067C740 /* places_politecnico.plist in Resources */ = {isa = PBXBuildFile; fileRef = C720324B16EA83E00067C740 /* places_politecnico.plist */; };
+		C720325116EA8E6D0067C740 /* MyLocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C720325016EA8E6D0067C740 /* MyLocationsViewController.m */; };
+		C720325616EAB4D40067C740 /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C720325316EAB4D30067C740 /* ContentManager.m */; };
+		C720325716EAB4D40067C740 /* MarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C720325516EAB4D30067C740 /* MarkerView.m */; };
+		C76C651E16E2A983007A0E47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C651D16E2A983007A0E47 /* UIKit.framework */; };
+		C76C652016E2A983007A0E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C651F16E2A983007A0E47 /* Foundation.framework */; };
+		C76C652216E2A983007A0E47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C652116E2A983007A0E47 /* CoreGraphics.framework */; };
+		C76C652416E2A983007A0E47 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C652316E2A983007A0E47 /* CoreData.framework */; };
+		C76C652A16E2A983007A0E47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76C652816E2A983007A0E47 /* InfoPlist.strings */; };
+		C76C652C16E2A983007A0E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C652B16E2A983007A0E47 /* main.m */; };
+		C76C653016E2A983007A0E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C652F16E2A983007A0E47 /* AppDelegate.m */; };
+		C76C653216E2A983007A0E47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C76C653116E2A983007A0E47 /* Default.png */; };
+		C76C653416E2A983007A0E47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C76C653316E2A983007A0E47 /* Default@2x.png */; };
+		C76C653616E2A983007A0E47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C76C653516E2A983007A0E47 /* Default-568h@2x.png */; };
+		C76C653916E2A983007A0E47 /* UFPR_RA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C76C653716E2A983007A0E47 /* UFPR_RA.xcdatamodeld */; };
+		C76C654316E2A9CB007A0E47 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76C654216E2A9CB007A0E47 /* iPhone.storyboard */; };
+		C76C654516E2A9DD007A0E47 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76C654416E2A9DD007A0E47 /* iPad.storyboard */; };
+		C76C654916E2AA51007A0E47 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C654816E2AA51007A0E47 /* SplashScreenViewController.m */; };
+		C76C655716E2AEA6007A0E47 /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C654C16E2AEA6007A0E47 /* ARCoordinate.m */; };
+		C76C655816E2AEA6007A0E47 /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C654E16E2AEA6007A0E47 /* ARGeoCoordinate.m */; };
+		C76C655916E2AEA6007A0E47 /* ARKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C655016E2AEA6007A0E47 /* ARKit.m */; };
+		C76C655A16E2AEA6007A0E47 /* AugmentedRealityController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C655416E2AEA6007A0E47 /* AugmentedRealityController.m */; };
+		C76C655B16E2AEA6007A0E47 /* GEOLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C655616E2AEA6007A0E47 /* GEOLocations.m */; };
+		C7CA738016E7DBCC009A1ABE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA737F16E7DBCC009A1ABE /* MapViewController.m */; };
+		C7CA738316E7DBE1009A1ABE /* AugmentedRealityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA738216E7DBE1009A1ABE /* AugmentedRealityViewController.m */; };
+		C7CA738516E7DCBF009A1ABE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA738416E7DCBF009A1ABE /* CoreLocation.framework */; };
+		C7CA738716E7DCC8009A1ABE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA738616E7DCC8009A1ABE /* MapKit.framework */; };
+		C7CA738C16E7E1D6009A1ABE /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA738916E7E1D5009A1ABE /* Location.m */; };
+		C7CA738D16E7E1D6009A1ABE /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA738B16E7E1D6009A1ABE /* MapViewAnnotation.m */; };
+		C7CA738F16E7E39A009A1ABE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA738E16E7E39A009A1ABE /* CoreMedia.framework */; };
+		C7CA739116E7E3AE009A1ABE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA739016E7E3AE009A1ABE /* AVFoundation.framework */; };
+		C7CA739316E7E3B5009A1ABE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA739216E7E3B5009A1ABE /* QuartzCore.framework */; };
+		C7CA739816E7EA77009A1ABE /* SaveCurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA739716E7EA77009A1ABE /* SaveCurrentLocationViewController.m */; };
+		C7DFCAFC16EC309300309AFB /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DFCAFA16EC309300309AFB /* magnify.png */; };
+		C7DFCAFD16EC309300309AFB /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DFCAFB16EC309300309AFB /* map-marker.png */; };
+		C7DFCAFF16EC30B000309AFB /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = C7DFCAFE16EC30B000309AFB /* gear.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C711B37116EBFB4600471A33 /* ConfigsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigsViewController.h; sourceTree = "<group>"; };
+		C711B37216EBFB4600471A33 /* ConfigsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigsViewController.m; sourceTree = "<group>"; };
+		C71BF2DB16F36EE900A4C835 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C720324A16EA83E00067C740 /* places_agrarias.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = places_agrarias.plist; sourceTree = "<group>"; };
+		C720324B16EA83E00067C740 /* places_politecnico.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = places_politecnico.plist; sourceTree = "<group>"; };
+		C720324E16EA85720067C740 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C720324F16EA8E6D0067C740 /* MyLocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationsViewController.h; sourceTree = "<group>"; };
+		C720325016EA8E6D0067C740 /* MyLocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationsViewController.m; sourceTree = "<group>"; };
+		C720325216EAB4D20067C740 /* ContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		C720325316EAB4D30067C740 /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
+		C720325416EAB4D30067C740 /* MarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerView.h; sourceTree = "<group>"; };
+		C720325516EAB4D30067C740 /* MarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerView.m; sourceTree = "<group>"; };
+		C720325816EAB6290067C740 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		C76C651A16E2A983007A0E47 /* UFPR RA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UFPR RA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76C651D16E2A983007A0E47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C76C651F16E2A983007A0E47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C76C652116E2A983007A0E47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C76C652316E2A983007A0E47 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C76C652716E2A983007A0E47 /* UFPR RA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UFPR RA-Info.plist"; sourceTree = "<group>"; };
+		C76C652916E2A983007A0E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C76C652B16E2A983007A0E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76C652D16E2A983007A0E47 /* UFPR RA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UFPR RA-Prefix.pch"; sourceTree = "<group>"; };
+		C76C652E16E2A983007A0E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76C652F16E2A983007A0E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76C653116E2A983007A0E47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C76C653316E2A983007A0E47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C76C653516E2A983007A0E47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C76C653816E2A983007A0E47 /* UFPR_RA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UFPR_RA.xcdatamodel; sourceTree = "<group>"; };
+		C76C654216E2A9CB007A0E47 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		C76C654416E2A9DD007A0E47 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		C76C654716E2AA51007A0E47 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		C76C654816E2AA51007A0E47 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		C76C654B16E2AEA6007A0E47 /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoordinate.h; sourceTree = "<group>"; };
+		C76C654C16E2AEA6007A0E47 /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoordinate.m; sourceTree = "<group>"; };
+		C76C654D16E2AEA6007A0E47 /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGeoCoordinate.h; sourceTree = "<group>"; };
+		C76C654E16E2AEA6007A0E47 /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGeoCoordinate.m; sourceTree = "<group>"; };
+		C76C654F16E2AEA6007A0E47 /* ARKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKit.h; sourceTree = "<group>"; };
+		C76C655016E2AEA6007A0E47 /* ARKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKit.m; sourceTree = "<group>"; };
+		C76C655116E2AEA6007A0E47 /* ARLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLocationDelegate.h; sourceTree = "<group>"; };
+		C76C655216E2AEA6007A0E47 /* ARViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewProtocol.h; sourceTree = "<group>"; };
+		C76C655316E2AEA6007A0E47 /* AugmentedRealityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugmentedRealityController.h; sourceTree = "<group>"; };
+		C76C655416E2AEA6007A0E47 /* AugmentedRealityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityController.m; sourceTree = "<group>"; };
+		C76C655516E2AEA6007A0E47 /* GEOLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocations.h; sourceTree = "<group>"; };
+		C76C655616E2AEA6007A0E47 /* GEOLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocations.m; sourceTree = "<group>"; };
+		C7CA737E16E7DBCC009A1ABE /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		C7CA737F16E7DBCC009A1ABE /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		C7CA738116E7DBE1009A1ABE /* AugmentedRealityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugmentedRealityViewController.h; sourceTree = "<group>"; };
+		C7CA738216E7DBE1009A1ABE /* AugmentedRealityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityViewController.m; sourceTree = "<group>"; };
+		C7CA738416E7DCBF009A1ABE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C7CA738616E7DCC8009A1ABE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C7CA738816E7E1D5009A1ABE /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		C7CA738916E7E1D5009A1ABE /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		C7CA738A16E7E1D6009A1ABE /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		C7CA738B16E7E1D6009A1ABE /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		C7CA738E16E7E39A009A1ABE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C7CA739016E7E3AE009A1ABE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7CA739216E7E3B5009A1ABE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C7CA739616E7EA77009A1ABE /* SaveCurrentLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveCurrentLocationViewController.h; sourceTree = "<group>"; };
+		C7CA739716E7EA77009A1ABE /* SaveCurrentLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveCurrentLocationViewController.m; sourceTree = "<group>"; };
+		C7DFCAFA16EC309300309AFB /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
+		C7DFCAFB16EC309300309AFB /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-marker.png"; sourceTree = "<group>"; };
+		C7DFCAFE16EC30B000309AFB /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76C651716E2A983007A0E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CA739316E7E3B5009A1ABE /* QuartzCore.framework in Frameworks */,
+				C7CA739116E7E3AE009A1ABE /* AVFoundation.framework in Frameworks */,
+				C7CA738F16E7E39A009A1ABE /* CoreMedia.framework in Frameworks */,
+				C7CA738716E7DCC8009A1ABE /* MapKit.framework in Frameworks */,
+				C7CA738516E7DCBF009A1ABE /* CoreLocation.framework in Frameworks */,
+				C76C651E16E2A983007A0E47 /* UIKit.framework in Frameworks */,
+				C76C652016E2A983007A0E47 /* Foundation.framework in Frameworks */,
+				C76C652216E2A983007A0E47 /* CoreGraphics.framework in Frameworks */,
+				C76C652416E2A983007A0E47 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76C651116E2A983007A0E47 = {
+			isa = PBXGroup;
+			children = (
+				C76C652516E2A983007A0E47 /* UFPR RA */,
+				C76C651C16E2A983007A0E47 /* Frameworks */,
+				C76C651B16E2A983007A0E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76C651B16E2A983007A0E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76C651A16E2A983007A0E47 /* UFPR RA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76C651C16E2A983007A0E47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CA739216E7E3B5009A1ABE /* QuartzCore.framework */,
+				C7CA739016E7E3AE009A1ABE /* AVFoundation.framework */,
+				C7CA738E16E7E39A009A1ABE /* CoreMedia.framework */,
+				C7CA738616E7DCC8009A1ABE /* MapKit.framework */,
+				C7CA738416E7DCBF009A1ABE /* CoreLocation.framework */,
+				C76C651D16E2A983007A0E47 /* UIKit.framework */,
+				C76C651F16E2A983007A0E47 /* Foundation.framework */,
+				C76C652116E2A983007A0E47 /* CoreGraphics.framework */,
+				C76C652316E2A983007A0E47 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C76C652516E2A983007A0E47 /* UFPR RA */ = {
+			isa = PBXGroup;
+			children = (
+				C7CA739516E7E6F0009A1ABE /* Custom Views */,
+				C7CA739416E7E6E1009A1ABE /* Objects */,
+				C76C654A16E2AEA6007A0E47 /* iPhone-AR-Toolkit */,
+				C76C654616E2AA2A007A0E47 /* ViewControllers */,
+				C720324E16EA85720067C740 /* Common.h */,
+				C76C652E16E2A983007A0E47 /* AppDelegate.h */,
+				C76C652F16E2A983007A0E47 /* AppDelegate.m */,
+				C720325216EAB4D20067C740 /* ContentManager.h */,
+				C720325316EAB4D30067C740 /* ContentManager.m */,
+				C720325416EAB4D30067C740 /* MarkerView.h */,
+				C720325516EAB4D30067C740 /* MarkerView.m */,
+				C720325816EAB6290067C740 /* SynthesizeSingleton.h */,
+				C76C652616E2A983007A0E47 /* Supporting Files */,
+			);
+			path = "UFPR RA";
+			sourceTree = "<group>";
+		};
+		C76C652616E2A983007A0E47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76C654016E2A9A3007A0E47 /* Core Data */,
+				C76C654116E2A9AD007A0E47 /* Images */,
+				C76C653F16E2A98F007A0E47 /* Storyboards */,
+				C720324A16EA83E00067C740 /* places_agrarias.plist */,
+				C720324B16EA83E00067C740 /* places_politecnico.plist */,
+				C76C652716E2A983007A0E47 /* UFPR RA-Info.plist */,
+				C76C652816E2A983007A0E47 /* InfoPlist.strings */,
+				C76C652B16E2A983007A0E47 /* main.m */,
+				C76C652D16E2A983007A0E47 /* UFPR RA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76C653F16E2A98F007A0E47 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C76C654216E2A9CB007A0E47 /* iPhone.storyboard */,
+				C76C654416E2A9DD007A0E47 /* iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C76C654016E2A9A3007A0E47 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C76C653716E2A983007A0E47 /* UFPR_RA.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		C76C654116E2A9AD007A0E47 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFCAF916EC307F00309AFB /* Tab Bar Buttons */,
+				C76C653116E2A983007A0E47 /* Default.png */,
+				C76C653316E2A983007A0E47 /* Default@2x.png */,
+				C76C653516E2A983007A0E47 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C76C654616E2AA2A007A0E47 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C76C654716E2AA51007A0E47 /* SplashScreenViewController.h */,
+				C76C654816E2AA51007A0E47 /* SplashScreenViewController.m */,
+				C7CA737E16E7DBCC009A1ABE /* MapViewController.h */,
+				C7CA737F16E7DBCC009A1ABE /* MapViewController.m */,
+				C7CA738116E7DBE1009A1ABE /* AugmentedRealityViewController.h */,
+				C7CA738216E7DBE1009A1ABE /* AugmentedRealityViewController.m */,
+				C711B37116EBFB4600471A33 /* ConfigsViewController.h */,
+				C711B37216EBFB4600471A33 /* ConfigsViewController.m */,
+				C7CA739616E7EA77009A1ABE /* SaveCurrentLocationViewController.h */,
+				C7CA739716E7EA77009A1ABE /* SaveCurrentLocationViewController.m */,
+				C720324F16EA8E6D0067C740 /* MyLocationsViewController.h */,
+				C720325016EA8E6D0067C740 /* MyLocationsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C76C654A16E2AEA6007A0E47 /* iPhone-AR-Toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				C76C654B16E2AEA6007A0E47 /* ARCoordinate.h */,
+				C76C654C16E2AEA6007A0E47 /* ARCoordinate.m */,
+				C76C654D16E2AEA6007A0E47 /* ARGeoCoordinate.h */,
+				C76C654E16E2AEA6007A0E47 /* ARGeoCoordinate.m */,
+				C76C654F16E2AEA6007A0E47 /* ARKit.h */,
+				C76C655016E2AEA6007A0E47 /* ARKit.m */,
+				C76C655116E2AEA6007A0E47 /* ARLocationDelegate.h */,
+				C76C655216E2AEA6007A0E47 /* ARViewProtocol.h */,
+				C76C655316E2AEA6007A0E47 /* AugmentedRealityController.h */,
+				C76C655416E2AEA6007A0E47 /* AugmentedRealityController.m */,
+				C76C655516E2AEA6007A0E47 /* GEOLocations.h */,
+				C76C655616E2AEA6007A0E47 /* GEOLocations.m */,
+			);
+			path = "iPhone-AR-Toolkit";
+			sourceTree = "<group>";
+		};
+		C7CA739416E7E6E1009A1ABE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C7CA738816E7E1D5009A1ABE /* Location.h */,
+				C7CA738916E7E1D5009A1ABE /* Location.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		C7CA739516E7E6F0009A1ABE /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7CA738A16E7E1D6009A1ABE /* MapViewAnnotation.h */,
+				C7CA738B16E7E1D6009A1ABE /* MapViewAnnotation.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		C7DFCAF916EC307F00309AFB /* Tab Bar Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFCAFA16EC309300309AFB /* magnify.png */,
+				C7DFCAFB16EC309300309AFB /* map-marker.png */,
+				C7DFCAFE16EC30B000309AFB /* gear.png */,
+			);
+			name = "Tab Bar Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76C651916E2A983007A0E47 /* UFPR RA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76C653C16E2A983007A0E47 /* Build configuration list for PBXNativeTarget "UFPR RA" */;
+			buildPhases = (
+				C76C651616E2A983007A0E47 /* Sources */,
+				C76C651716E2A983007A0E47 /* Frameworks */,
+				C76C651816E2A983007A0E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UFPR RA";
+			productName = "UFPR RA";
+			productReference = C76C651A16E2A983007A0E47 /* UFPR RA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76C651216E2A983007A0E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Roberto Beraldo Chaiben";
+			};
+			buildConfigurationList = C76C651516E2A983007A0E47 /* Build configuration list for PBXProject "UFPR RA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pt,
+			);
+			mainGroup = C76C651116E2A983007A0E47;
+			productRefGroup = C76C651B16E2A983007A0E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76C651916E2A983007A0E47 /* UFPR RA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76C651816E2A983007A0E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76C652A16E2A983007A0E47 /* InfoPlist.strings in Resources */,
+				C76C653216E2A983007A0E47 /* Default.png in Resources */,
+				C76C653416E2A983007A0E47 /* Default@2x.png in Resources */,
+				C76C653616E2A983007A0E47 /* Default-568h@2x.png in Resources */,
+				C76C654316E2A9CB007A0E47 /* iPhone.storyboard in Resources */,
+				C76C654516E2A9DD007A0E47 /* iPad.storyboard in Resources */,
+				C720324C16EA83E00067C740 /* places_agrarias.plist in Resources */,
+				C720324D16EA83E00067C740 /* places_politecnico.plist in Resources */,
+				C7DFCAFC16EC309300309AFB /* magnify.png in Resources */,
+				C7DFCAFD16EC309300309AFB /* map-marker.png in Resources */,
+				C7DFCAFF16EC30B000309AFB /* gear.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76C651616E2A983007A0E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76C652C16E2A983007A0E47 /* main.m in Sources */,
+				C76C653016E2A983007A0E47 /* AppDelegate.m in Sources */,
+				C76C653916E2A983007A0E47 /* UFPR_RA.xcdatamodeld in Sources */,
+				C76C654916E2AA51007A0E47 /* SplashScreenViewController.m in Sources */,
+				C76C655716E2AEA6007A0E47 /* ARCoordinate.m in Sources */,
+				C76C655816E2AEA6007A0E47 /* ARGeoCoordinate.m in Sources */,
+				C76C655916E2AEA6007A0E47 /* ARKit.m in Sources */,
+				C76C655A16E2AEA6007A0E47 /* AugmentedRealityController.m in Sources */,
+				C76C655B16E2AEA6007A0E47 /* GEOLocations.m in Sources */,
+				C7CA738016E7DBCC009A1ABE /* MapViewController.m in Sources */,
+				C7CA738316E7DBE1009A1ABE /* AugmentedRealityViewController.m in Sources */,
+				C7CA738C16E7E1D6009A1ABE /* Location.m in Sources */,
+				C7CA738D16E7E1D6009A1ABE /* MapViewAnnotation.m in Sources */,
+				C7CA739816E7EA77009A1ABE /* SaveCurrentLocationViewController.m in Sources */,
+				C720325116EA8E6D0067C740 /* MyLocationsViewController.m in Sources */,
+				C720325616EAB4D40067C740 /* ContentManager.m in Sources */,
+				C720325716EAB4D40067C740 /* MarkerView.m in Sources */,
+				C711B37316EBFB4600471A33 /* ConfigsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C76C652816E2A983007A0E47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76C652916E2A983007A0E47 /* en */,
+				C71BF2DB16F36EE900A4C835 /* pt */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76C653A16E2A983007A0E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C76C653B16E2A983007A0E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76C653D16E2A983007A0E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UFPR RA/UFPR RA-Prefix.pch";
+				INFOPLIST_FILE = "UFPR RA/UFPR RA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C76C653E16E2A983007A0E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UFPR RA/UFPR RA-Prefix.pch";
+				INFOPLIST_FILE = "UFPR RA/UFPR RA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76C651516E2A983007A0E47 /* Build configuration list for PBXProject "UFPR RA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76C653A16E2A983007A0E47 /* Debug */,
+				C76C653B16E2A983007A0E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76C653C16E2A983007A0E47 /* Build configuration list for PBXNativeTarget "UFPR RA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76C653D16E2A983007A0E47 /* Debug */,
+				C76C653E16E2A983007A0E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C76C653716E2A983007A0E47 /* UFPR_RA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C76C653816E2A983007A0E47 /* UFPR_RA.xcdatamodel */,
+			);
+			currentVersion = C76C653816E2A983007A0E47 /* UFPR_RA.xcdatamodel */;
+			path = UFPR_RA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C76C651216E2A983007A0E47 /* Project object */;
+}

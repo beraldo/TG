@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>WalMart Cabral</string>
+		<key>latitude</key>
+		<real>-25.402839</real>
+		<key>longitude</key>
+		<real>-49.248383</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Praça Suiça</string>
+		<key>latitude</key>
+		<real>-25.405082</real>
+		<key>longitude</key>
+		<real>-49.249483</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Terminal Cabral</string>
+		<key>latitude</key>
+		<real>-25.406274</real>
+		<key>longitude</key>
+		<real>-49.25238</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mercadorama Cabral</string>
+		<key>latitude</key>
+		<real>-25.410509</real>
+		<key>longitude</key>
+		<real>-49.254954</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wizard Cabral</string>
+		<key>latitude</key>
+		<real>-25.412116</real>
+		<key>longitude</key>
+		<real>-49.254541</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mc Donald&apos;s</string>
+		<key>latitude</key>
+		<real>-25.410502</real>
+		<key>longitude</key>
+		<real>-49.254185</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pizzaria Mercearia Bresser</string>
+		<key>latitude</key>
+		<real>-25.410693</real>
+		<key>longitude</key>
+		<real>-49.253852</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Restaurante Madero</string>
+		<key>latitude</key>
+		<real>-25.410211</real>
+		<key>longitude</key>
+		<real>-49.253173</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Subway</string>
+		<key>latitude</key>
+		<real>-25.408707</real>
+		<key>longitude</key>
+		<real>-49.251599</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Farmácia Pague Menos</string>
+		<key>latitude</key>
+		<real>-25.408104</real>
+		<key>longitude</key>
+		<real>-49.250106</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pizza Hut</string>
+		<key>latitude</key>
+		<real>-25.407544</real>
+		<key>longitude</key>
+		<real>-49.24988</real>
+	</dict>
+</array>
+</plist>

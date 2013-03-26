@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Mercadorama Jardim das Américas</string>
+		<key>latitude</key>
+		<real>-25.452246</real>
+		<key>longitude</key>
+		<real>-49.227676</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shopping Jardim das Américas</string>
+		<key>latitude</key>
+		<real>-25.452246</real>
+		<key>longitude</key>
+		<real>-49.227676</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dep. Informática UFPR</string>
+		<key>latitude</key>
+		<real>-25.450811</real>
+		<key>longitude</key>
+		<real>-49.231912</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>RU UFPR Politécnico</string>
+		<key>latitude</key>
+		<real>-25.449446</real>
+		<key>longitude</key>
+		<real>-49.235042</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dep. de Matemática</string>
+		<key>latitude</key>
+		<real>-25.450495</real>
+		<key>longitude</key>
+		<real>-49.232445</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Prédio de Administração do Politécnico</string>
+		<key>latitude</key>
+		<real>-25.45049</real>
+		<key>longitude</key>
+		<real>-49.232392</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PC (Exatas)</string>
+		<key>latitude</key>
+		<real>-25.450759</real>
+		<key>longitude</key>
+		<real>-49.231415</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco CT (Ciências da Terra)</string>
+		<key>latitude</key>
+		<real>-25.451415</real>
+		<key>longitude</key>
+		<real>-49.23167</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PD</string>
+		<key>latitude</key>
+		<real>-25.451267</real>
+		<key>longitude</key>
+		<real>-49.232545</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PE</string>
+		<key>latitude</key>
+		<real>-25.451553</real>
+		<key>longitude</key>
+		<real>-49.232832</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PF</string>
+		<key>latitude</key>
+		<real>-25.451909</real>
+		<key>longitude</key>
+		<real>-49.232925</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PG</string>
+		<key>latitude</key>
+		<real>-25.452241</real>
+		<key>longitude</key>
+		<real>-49.233195</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PH</string>
+		<key>latitude</key>
+		<real>-25.452558</real>
+		<key>longitude</key>
+		<real>-49.233295</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bibloteca de Ciências e Tecnologia</string>
+		<key>latitude</key>
+		<real>-25.45102</real>
+		<key>longitude</key>
+		<real>-49.232268</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco PQ (Química)</string>
+		<key>latitude</key>
+		<real>-25.450037</real>
+		<key>longitude</key>
+		<real>-49.235031</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco EQ (Eng. Química)</string>
+		<key>latitude</key>
+		<real>-25.448797</real>
+		<key>longitude</key>
+		<real>-49.233516</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bloco Biológicas</string>
+		<key>latitude</key>
+		<real>-25.447448</real>
+		<key>longitude</key>
+		<real>-49.232848</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Passarela Politécnico-Botânico</string>
+		<key>latitude</key>
+		<real>-25.448494</real>
+		<key>longitude</key>
+		<real>-49.234768</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Correios</string>
+		<key>latitude</key>
+		<real>-25.450369</real>
+		<key>longitude</key>
+		<real>-49.234033</real>
+	</dict>
+</array>
+</plist>
